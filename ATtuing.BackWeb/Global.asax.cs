@@ -27,10 +27,10 @@ namespace ATtuing.BackWeb
             log4net.Config.XmlConfigurator.Configure();
 
 
-            //全局路由配置
+            // 全局路由配置
             FilterConfig.RegisterFilters(GlobalFilters.Filters);
 
-            //开启作业调度
+            // 开启作业调度
             startQuartz();
         }
             private void startQuartz()
