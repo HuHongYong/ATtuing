@@ -1,4 +1,5 @@
 ﻿using ATtuing.Common;
+using ATtuing.IService;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,12 +10,13 @@ namespace ATtuing.BackWeb.Controllers
 {
     public class LoginController : Controller
     {
+        public IEQEventService EQEventService { get; set; }
         // GET: Login
         [HttpGet]
         public ActionResult Index()
         {
              string x = "555v"; ;
-            Convert.ToInt32(x);
+            var xx=EQEventService.GetById();
             return View();
         }
         [HttpGet]
