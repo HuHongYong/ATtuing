@@ -14,6 +14,7 @@ namespace ATtuing.Service.Configs
         {
             ToTable("EQ_USER.T_DATA_EQEVENT_TASK");
             HasKey(e => e.TASKID);
+          //  this.HasOptional(e => e.EQEvent).WithMany().HasForeignKey(e => e.EQID);
         }
     }
 }

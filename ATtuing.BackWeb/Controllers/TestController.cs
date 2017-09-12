@@ -21,5 +21,15 @@ namespace ATtuing.BackWeb.Controllers
             var xx = EQEventService.GetByIdSql();
             return Json(xx);
         }
+        public ActionResult IndexInclude()
+        {
+            var xx = EQEventService.IncludeEQEvent();
+            return Json(xx);
+        }
+        //一对多最佳测试
+        public ActionResult Index1() {
+            var xx = EQEventService.GetEQEventTask();
+            return View();
+        }
     }
 }

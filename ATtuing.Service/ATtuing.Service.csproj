@@ -56,6 +56,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AutoMapper\EQEventProfile.cs" />
+    <Compile Include="AutoMapper\EQEventTaskProfile.cs" />
     <Compile Include="Configs\EQEventConfig.cs" />
     <Compile Include="Configs\EQEventTaskConfig.cs" />
     <Compile Include="Entities\EQEventEntity.cs" />

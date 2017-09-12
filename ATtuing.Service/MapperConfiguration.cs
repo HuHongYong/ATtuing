@@ -15,6 +15,7 @@ namespace ATtuing.Service
             Mapper.Initialize(cfg =>
             {
                 cfg.AddProfile<EQEventProfile>();
+                cfg.AddProfile<EQEventTaskProfile>();
             });
         }
     }
