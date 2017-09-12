@@ -10,5 +10,6 @@ namespace ATtuing.IService
     public interface IEQEventService: IServiceSupport
     {
         EQEventDto GetById();
+        EQEventDto GetByIdSql();
     }
 }

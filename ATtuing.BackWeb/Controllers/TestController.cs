@@ -16,5 +16,10 @@ namespace ATtuing.BackWeb.Controllers
             var xx = EQEventService.GetById();
             return Json(xx);
         }
+        public ActionResult IndexSql()
+        {
+            var xx = EQEventService.GetByIdSql();
+            return Json(xx);
+        }
     }
 }
