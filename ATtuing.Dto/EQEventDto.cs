@@ -47,5 +47,9 @@ public string EQType{get;set;}
 /// 创建时间
 /// </summary>
 public DateTime CTime{get;set;}
+        /// <summary>
+        /// 创建时间
+        /// </summary>
+        public List<string> TaskIds { get; set; } = new List<string>();
     }
 }

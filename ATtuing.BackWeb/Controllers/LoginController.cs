@@ -15,7 +15,7 @@ namespace ATtuing.BackWeb.Controllers
         [HttpGet]
         public ActionResult Index()
         {
-             string x = "556v"; ;
+           // string x = "556v"; ;
             var xx =EQEventService.GetById();
             return View();
         }

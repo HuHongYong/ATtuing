@@ -379,6 +379,7 @@
     <Content Include="Content\js\zsign\jquery.zsign.css" />
     <Content Include="Content\js\zsign\jquery.zsign.js" />
     <Content Include="Content\js\zsign\signet.gif" />
+    <Content Include="Areas\SystemManage\Views\web.config" />
     <None Include="Content\js\_references.js" />
     <Content Include="Global.asax" />
     <Content Include="Web.config">
@@ -390,7 +391,9 @@
     <Compile Include="App_Start\ATtuingExceptionFilter.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\SystemManage\SystemManageAreaRegistration.cs" />
     <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\TestController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -432,7 +435,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\SystemManage\Controllers\" />
+    <Folder Include="Areas\SystemManage\Views\Shared\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\Test\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ATtuing.CommonMVC\ATtuing.CommonMVC.csproj">

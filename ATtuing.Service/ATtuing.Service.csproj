@@ -53,7 +53,9 @@
   <ItemGroup>
     <Compile Include="AutoMapper\EQEventProfile.cs" />
     <Compile Include="Configs\EQEventConfig.cs" />
+    <Compile Include="Configs\EQEventTaskConfig.cs" />
     <Compile Include="Entities\EQEventEntity.cs" />
+    <Compile Include="Entities\EQEventTaskEntity.cs" />
     <Compile Include="EQEventService.cs" />
     <Compile Include="MapperConfiguration.cs" />
     <Compile Include="MyDbContext.cs" />

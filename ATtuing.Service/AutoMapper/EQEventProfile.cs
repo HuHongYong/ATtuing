@@ -23,6 +23,7 @@ namespace ATtuing.Service.AutoMapper
             map.ForMember(d => d.EQType, opt => opt.MapFrom(s => s.EQTYPE));
             map.ForMember(d => d.Lat, opt => opt.MapFrom(s => s.LAT));
             map.ForMember(d => d.Lon, opt => opt.MapFrom(s => s.LON));
+            map.ForMember(d => d.TaskIds, opt => opt.MapFrom(s => s.EQEventTasks.OrderBy(e=>e.CTIME).Select(e=>e.TASKID)));
         }
     }
 }

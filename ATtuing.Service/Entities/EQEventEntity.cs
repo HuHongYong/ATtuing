@@ -47,5 +47,7 @@ public string EQTYPE{get;set;}
 /// 创建时间
 /// </summary>
 public DateTime CTIME{get;set;}
+
+public virtual ICollection<EQEventTaskEntity> EQEventTasks { get; set; } = new List<EQEventTaskEntity>();
     }
 }
