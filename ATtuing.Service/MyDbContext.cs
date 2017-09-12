@@ -21,6 +21,6 @@ namespace ATtuing.Service
             modelBuilder.Configurations.AddFromAssembly(Assembly.GetExecutingAssembly());
         }
         public DbSet<EQEventEntity> EQEvents { get; set; }
-        public DbSet<EQEventTaskEntity> EQEventTasks { get; set; }
+        public DbSet<EQEventTaskEntity>  EQEventTasks { get; set; }
     }
 }
