@@ -16,6 +16,8 @@ namespace ATtuing.Service
             {
                 cfg.AddProfile<EQEventProfile>();
                 cfg.AddProfile<EQEventTaskProfile>();
+                cfg.AddProfile<RoleProfile>();
+                cfg.AddProfile<RoleModelProfile>();
             });
         }
     }

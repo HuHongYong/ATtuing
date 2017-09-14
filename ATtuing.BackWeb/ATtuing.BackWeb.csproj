@@ -391,6 +391,7 @@
     <Compile Include="App_Start\ATtuingExceptionFilter.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\SystemManage\Controllers\RoleController.cs" />
     <Compile Include="Areas\SystemManage\SystemManageAreaRegistration.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\TestController.cs" />
@@ -435,7 +436,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Areas\SystemManage\Controllers\" />
+    <Folder Include="Areas\SystemManage\Views\Role\" />
     <Folder Include="Areas\SystemManage\Views\Shared\" />
     <Folder Include="Models\" />
     <Folder Include="Views\Test\" />

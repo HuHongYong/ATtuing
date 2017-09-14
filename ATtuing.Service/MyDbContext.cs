@@ -28,5 +28,7 @@ namespace ATtuing.Service
         }
         public DbSet<EQEventEntity> EQEvents { get; set; }
         public DbSet<EQEventTaskEntity>  EQEventTasks { get; set; }
+        public DbSet<RoleEntity> Roles { get; set; }
+        public DbSet<AuthorizeEntity> Authorizes { get; set; }
     }
 }

@@ -44,6 +44,8 @@
     <Compile Include="EQEventDto.cs" />
     <Compile Include="EQEventTaskDto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoleDto.cs" />
+    <Compile Include="RoleModelDto.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
