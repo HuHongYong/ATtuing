@@ -55,6 +55,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AuthorizeService.cs" />
+    <Compile Include="AutoMapper\AuthorizeProfile.cs" />
     <Compile Include="AutoMapper\EQEventProfile.cs" />
     <Compile Include="AutoMapper\EQEventTaskProfile.cs" />
     <Compile Include="AutoMapper\RoleModelProfile.cs" />
@@ -79,6 +81,10 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <ProjectReference Include="..\ATtuing.Common\ATtuing.Common.csproj">
+      <Project>{733b128b-a14e-48d4-b110-d86806dc09c5}</Project>
+      <Name>ATtuing.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ATtuing.Dto\ATtuing.Dto.csproj">
       <Project>{45c42bc5-49de-40e4-9bf9-3d476a3d78fe}</Project>
       <Name>ATtuing.Dto</Name>

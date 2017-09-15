@@ -14,21 +14,13 @@
         /// </summary>
         public int page { get; set; }
         /// <summary>
-        /// 排序列
-        /// </summary>
-        public string sidx { get; set; }
-        /// <summary>
-        /// 排序类型
-        /// </summary>
-        public string sord { get; set; }
-        /// <summary>
         /// 总记录数
         /// </summary>
-        public int records { get; set; }
+        public long records { get; set; }
         /// <summary>
         /// 总页数
         /// </summary>
-        public int total
+        public long total
         {
             get
             {

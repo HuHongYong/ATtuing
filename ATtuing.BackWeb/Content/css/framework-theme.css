@@ -36,7 +36,7 @@ a:hover,a:focus{color:#475059;}
 #header-navbar .navbar-form .nav-search-icon{position:absolute;color:#707070;right:6px;top:8px;}
 #header-navbar .nav>li>a{height:50px}
 #header-navbar .nav>li>a>span.count{background:none repeat scroll 0 0 #f4786e;border-radius:50%;background-clip:padding-box;color:#fff;display:block;font-size:9px;height:14px;line-height:14px;position:absolute;right:10px;text-align:center;top:11px;width:14px;}
-#header-navbar .profile-dropdown>a{padding-top:8px;padding-bottom:7px;line-height:35px;}
+#header-navbar .profile-dropdown>a{padding-top:8px;padding-bottom:7px;line-height:35px;width:113px}
 #header-navbar .profile-dropdown>a>img{border-radius:50%;background-clip:padding-box;float:left;height:35px;margin-right:5px;width:35px;border:2px solid #fff;}
 #header-navbar .profile-dropdown>a>span{float:left;display:block;margin-right:3px;font-size:em;}
 #header-nav .form-control{border-radius:0;background-clip:padding-box;border:0;}

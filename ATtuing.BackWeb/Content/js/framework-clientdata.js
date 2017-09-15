@@ -28,6 +28,6 @@ $.clientsInit = function () {
             }
         });
     }
-    init();
+  //  init();
     return dataJson;
 }

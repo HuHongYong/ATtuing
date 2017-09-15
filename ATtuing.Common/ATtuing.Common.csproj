@@ -57,7 +57,10 @@
     <Compile Include="Security\DESEncrypt.cs" />
     <Compile Include="Security\Md5.cs" />
     <Compile Include="VerifyCode.cs" />
+    <Compile Include="Web\AjaxResult.cs" />
     <Compile Include="Web\Pagination.cs" />
+    <Compile Include="Web\TreeView\TreeView.cs" />
+    <Compile Include="Web\TreeView\TreeViewModel.cs" />
     <Compile Include="Web\WebHelper.cs" />
   </ItemGroup>
   <ItemGroup>

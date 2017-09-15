@@ -24,7 +24,6 @@ namespace ATtuing.CommonMVC
                 jsonNetResult.JsonRequestBehavior = jsonResult.JsonRequestBehavior;
                 jsonNetResult.MaxJsonLength = jsonResult.MaxJsonLength;
                 jsonNetResult.RecursionLimit = jsonResult.RecursionLimit;
-
                 filterContext.Result = jsonNetResult;
             }
         }
